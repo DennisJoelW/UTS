@@ -1,0 +1,632 @@
+.notelp
+{
+    font-weight: 600;
+}
+
+@media (max-width: 992px)
+{
+    .logologo
+    {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .logologo .logo1
+    {
+        display: inline-flex;
+        justify-content: space-evenly;
+    }
+    .gambarbali
+    {
+        clip-path: inset(0px 0px 0px 0px);
+    }
+}
+
+.travelo
+{
+    font-family: "Monaco","monospace";
+}
+
+.containerbali
+{
+    padding: 0;
+}
+.collapse a
+{
+    color: black;
+}
+.nav-item
+{
+    margin-right: 20px;
+}
+
+.containerbali
+{
+    position: relative;
+    display: inline-block;
+}
+
+.tulisanindonesia
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-family: "Rubik",sans-serif;
+    text-align: center;
+    flex-direction: column;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+.tulisanindonesia h2
+{
+    font-family: "Lucida Handwriting", "cursive";
+    font-size: 100px;
+}
+
+.wheretogo
+{
+    width: 180px;
+    margin-bottom: 17px;
+}
+
+.popular
+{
+    margin-top: 150px;
+}
+.popular h2
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-family: "Rubik", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+.popular p
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    color: grey;
+    font-family: "Rubik", sans-serif;
+}
+.whereyougo
+{
+    font-family: "Rubik", sans-serif;
+}
+
+@media (max-width: 780px)
+{   
+    .tulisanindonesia
+    {
+        font-size: 15px;
+    }
+    .tulisanindonesia h2
+    {
+        font-size: 55px;
+    }
+    .popular .row
+    {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    .wheretogo
+    {
+        width: 100%;
+    }
+    .tombolsearch
+    {
+        margin: 0;
+    }
+}
+
+.popular img
+{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+.popular .row
+{
+    margin-top: 50px;
+}
+
+.image-container
+{
+    position: relative;
+    display: inline-block;
+}
+
+.popular .row h3
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 15px;
+    margin-left: 25px;
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+}
+
+.image-container img:hover
+{
+    transform: translate(10px);
+    transition: transform 0.4s;
+}
+
+.popular .row .jpnslot:hover h3
+{
+    color: rgb(226, 63, 63);
+  transform: translate(10px);
+  transition: transform 0.4s;
+}
+
+.popular .row .londonslot:hover h3
+{
+    color: rgb(226, 63, 63);
+  transform: translate(10px);
+  transition: transform 0.4s;
+}
+
+.popular .row .sgslot:hover h3
+{
+    color: rgb(226, 63, 63);
+  transform: translate(10px);
+  transition: transform 0.4s;
+}
+
+.popular .row .brazilslot:hover h3
+{
+    color: rgb(226, 63, 63);
+  transform: translate(10px);
+  transition: transform 0.4s;
+}
+
+.popular .row .koreaslot:hover h3
+{
+    color: rgb(226, 63, 63);
+  transform: translate(10px);
+  transition: transform 0.4s;
+}
+
+.popular .row .italyslot:hover h3
+{
+    color: rgb(226, 63, 63);
+  transform: translate(10px);
+  transition: transform 0.4s;
+}
+
+.newsfluid
+{
+    background-color: rgb(30, 30, 47);
+}
+.news
+{
+    margin-top: 150px;
+}
+
+input[name="mail"] {
+    width: 90%;
+    height: 48px;
+    padding-left: 10px;
+    color: grey;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.rownews
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.rownews h3
+{
+    color: white;
+    font-size: 30px;
+    font-family: "Monaco","monospace";
+
+}
+
+.rownews p
+{
+    color: grey;
+    font-family: "Monaco","monospace";
+    font-size: 20px;
+}
+
+.rownews div
+{
+    padding-top: 20px;
+}
+
+@media (max-width: 1000px)
+{   
+    .rownews button
+    {
+        margin-top: 20px;
+    }
+    input[name="mail"]
+    {
+        width: 100%;
+    }
+}
+
+.indoplace
+{
+    margin-top: 140px;
+}
+
+.indoplace h2
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.indoplace .pplace
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 50px;
+}
+
+.rowplace img
+{
+    width: 98%;
+    height: 260px;
+    margin-bottom: 19px;
+}
+
+.rowplace
+{
+    margin-bottom: 50px;
+}
+
+.wisataindo h3
+{
+    font-family: Helvetica, sans-serif;
+    padding-left: 20px;
+    color: black;
+    font-weight: 500;
+    font-size: 26px;
+    transition: 0.6s ease-in;
+    margin: 0;
+}
+
+.wisataindo
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.wisataindo:hover .price
+{
+    background-color: rgb(226, 63, 63);
+    transition: transform 0.4s;
+}
+.wisataindo:hover h3
+{
+    color: rgb(226, 63, 63);
+    transition: transform 0.4s;
+}
+.wisataindo .price
+{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: auto;
+    border-radius: 18px;
+    height: auto;
+    background: #1EC6B6;
+    color: white;
+    padding: 7px 18px 4px 18px;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.6s ease-in;
+}
+
+.wisataindo span
+{
+    margin-left: 16px;
+}
+.wisataindo span img
+{
+    width: 17px;
+    height: 17px;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+.wisataindo span a
+{
+    text-decoration: none;
+    color: grey;
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+}
+
+.wisataindo p
+{
+    padding-left: 22px;
+    font-family: "Rubik", sans-serif;
+    color: grey;
+    font-size: 17px;
+}
+
+.wisataindo a img
+{
+    border-radius: 5px;
+}
+
+.tombolsearch
+{
+    background-color: rgb(248, 65, 65);
+  border: 1px solid rgb(248, 65, 65);
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  width: 160px; height: 45px;
+}
+
+.buttonrow
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moreplace
+{
+    background-color: rgb(248, 65, 65);
+    border: 1px solid rgb(248, 65, 65);
+    margin-top: 10px;
+    border-radius: 30px ;
+    background: #FF4A52;
+    color: #fff;
+    display: inline-block;
+
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.vidbali .vid
+{
+    width: 100%;
+    clip-path: inset(0px 0px 100px 0px);
+}
+
+.vidbali
+{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    position: relative;
+}
+
+.vidbali a
+{
+    position: absolute;
+    top:auto;
+    left:auto;
+    width: 70px;
+    height: auto;
+    display: flex;
+}
+
+.vidbali h3
+{
+    position: absolute;
+    font-family: "Lucida Handwriting", "cursive";
+    color: white;
+    top: 37%;
+}
+
+.vidbali a img
+{
+    top:auto;
+    left:auto;
+    width: 70px;
+    height: auto;
+    display: flex;
+}
+
+@media (max-width: 1000px)
+{
+    .vidbali .vid
+{
+    clip-path: inset(0px 0px 0px 0px);
+}
+
+    .vidbali h3
+    {
+        font-size: 18px;
+        top: 27%;
+    }
+
+    .vidbali a img
+    {
+        width: 50px;
+        height: auto;
+    }
+}
+
+.testi
+{
+    margin-bottom: 160px;
+}
+
+.testi .row div
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testi .row img
+{
+    margin-bottom: 28px;
+}
+
+.testi .row h4
+{
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 11px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.testi .row p
+{
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.testiorang
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-indicators
+{
+    top: 110%;
+    left: 1.8%;
+}
+
+.karosel p
+{
+    text-align: center;
+}
+
+.karosel h5
+{
+    text-align: center;
+}
+
+.carousel-indicators [data-bs-target]
+{
+    background-color: grey;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+.famous
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.famous h3
+{
+    font-family: "Rubik", sans-serif;
+    font-weight: 550;
+    font-size: 34px;
+    margin-bottom: 60px;
+}
+
+.famous img
+{
+    width: 95%;
+    height: 260px;
+    margin-bottom: 20px;
+}
+
+.famous p
+{
+    text-align: start;
+    margin: 0;
+    margin-left: 9px;
+    color: grey;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+}
+
+.famous h4
+{
+    text-align: start;
+    margin-left: 9px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+
+.divbintan:hover h4
+{
+    color: rgb(248, 65, 65);
+}
+
+.divbali:hover h4
+{
+    color: rgb(248, 65, 65);
+}
+
+.divjapan:hover h4
+{
+    color: rgb(248, 65, 65);
+}
+
+
+.logofooter
+{
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+    display: flex;
+}
+
+
+.logofooter h4
+{
+    font-family: "Monaco","monospace";
+    font-size: 35px;
+}
